@@ -5,7 +5,7 @@ import { FaRegSmileWink } from "react-icons/fa";
 
 const AboutMeText = ({ isSmile, makeSmile }) => {
   return (
-    <div className="pt-16 bg-black min-h-[calc(100vh-40px)]">
+    <div className="pt-16 bg-gradient-to-b from-gray-700 to-black min-h-[calc(100vh-40px)]">
       <div className="grid sm:grid-cols-2 lg:gap-10 max-w-5xl mx-auto  ">
         <div className="px-4 pb-8 sm:pt-24 md:pl-8  text-slate-100  ">
           <div className="flex ">
