@@ -1,7 +1,5 @@
 import { useEffect, useRef } from "react";
 import { SlArrowDown } from "react-icons/sl";
-import bgImgMmobile from "../assets/images/landing-bg-mobile2.jpg";
-import bgImgDesktop from "../assets/images/landing-bg.jpg";
 
 const HeroText = () => {
   const bgRef = useRef();
@@ -25,7 +23,7 @@ const HeroText = () => {
   return (
     <div
       ref={bgRef}
-      className="pt-24 pb-10 px-2 w-full h-screen bg-[url('landing-bg-mobile2.jpg')] sm:bg-[url('landing-bg.jpg')] bg-cover bg-top bg-fixed   "
+      className="pt-24 pb-10 px-2 w-full h-screen bg-[url('/landing-bg-mobile2.jpg')] sm:bg-[url('/landing-bg.jpg')] bg-cover bg-top bg-fixed   "
     >
       <div className="h-full flex flex-col justify-between ">
         <div className="flex flex-col justify-center text-center gap-y-4 text-slate-900">
