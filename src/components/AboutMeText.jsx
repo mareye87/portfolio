@@ -54,7 +54,7 @@ const AboutMeText = ({ isSmile, makeSmile }) => {
               <h4 className="px-2 lg:text-lg   ">Think about it and</h4>
               <button
                 onClick={makeSmile}
-                className="text-xs font-semibold bg-gradient-to-b from-red-700 via-red-400 to-red-700  text-slate-900 shadow-md rounded-full px-2 pb-[1px] hover:scale-95 transition duration-300"
+                className="text-xs font-semibold bg-gradient-to-b from-red-700 via-red-400 to-red-700  text-slate-900 shadow-md rounded-full px-2 pb-[1px] hover:scale-95 transition duration-300 animate-bounce"
               >
                 make me smile
               </button>

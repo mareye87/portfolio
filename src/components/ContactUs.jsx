@@ -12,9 +12,14 @@ export const ContactUs = () => {
     e.preventDefault();
     setIsSending(true);
     emailjs
-      .sendForm("service_fdlqd72", "template_mh7vwqg", form.current, {
-        publicKey: "pGggLZZXgcNCPajyb",
-      })
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        "template_mh7vwqg",
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           console.log("SUCCESS!");
