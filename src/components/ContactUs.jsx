@@ -40,7 +40,7 @@ export const ContactUs = () => {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="bg-[rgba(255,255,255,0.2)]  backdrop-blur-[2px] flex flex-col p-6 shadow-md rounded-md gap-4"
+      className="bg-[rgba(255,255,255,0.2)] backdrop-blur-[2px] flex flex-col p-6 shadow-md rounded-md gap-4"
     >
       <div className="flex flex-col gap-2 ">
         <label className="text-slate-800  font-semibold tracking-wider">

@@ -36,12 +36,12 @@ const HeroText = () => {
           </div>
         </div>
         <div
-          className="flex flex-col items-center justify-center gap-x-4 hover:gap-x-6 transition-all duration-300"
+          className="flex justify-center mb-16 hover:gap-x-6 transition-all duration-300"
           onClick={() => {
             window.scroll(0, 500);
           }}
         >
-          <SlArrowDown className="text-2xl text-red-500 animate-bounce cursor-pointer  hover:translate-y-2 transition duration-300" />
+          <SlArrowDown className="text-4xl text-red-500 animate-bounce cursor-pointer  hover:translate-y-2 transition duration-300" />
         </div>
       </div>
     </div>
