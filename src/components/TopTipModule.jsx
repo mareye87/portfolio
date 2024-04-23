@@ -17,9 +17,9 @@ const TopTipModule = () => {
       onClick={() => {
         setShowModule(false);
       }}
-      className={`h-screen w-full absolute top-0 left-0 grid place-items-center z-50 ${
+      className={`h-screen w-full absolute top-0 left-0 grid place-items-center z-20 ${
         showModule ? "opacity-100" : "opacity-0 h-0"
-      } transition-all duration-1000 `}
+      } transition-all duration-1000`}
     >
       <div className="w-2/3 max-w-56  bg-[rgba(255,255,255,0.2)] backdrop-blur-md rounded-md shadow-md text-slate-100 relative">
         <h1 className="text-2xl bg-red-600 p-1 text-center rounded-t-md">
