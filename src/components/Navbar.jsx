@@ -31,20 +31,19 @@ const Navbar = () => {
       className=" bg-[rgba(255,255,255,0.3)] backdrop-blur-[2px] border-b border-gray-500 shadow-md fixed top-0 left-0 w-full z-50"
     >
       <div className="max-w-5xl flex items-center justify-between py-2 px-2 mx-auto relative   ">
-        <div>
-          <Link to="/">
-            <h1
-              className="text-3xl sm:text-4xl font-bold"
-              onClick={() => {
-                window.scroll(0, 0);
-              }}
-            >
-              m<span className="text-red-600">.</span>
-            </h1>
-          </Link>
-        </div>
+        <Link to="/">
+          <h1
+            className="text-3xl sm:text-4xl font-bold"
+            onClick={() => {
+              window.scroll(0, 0);
+            }}
+          >
+            m<span className="text-red-600">.</span>
+          </h1>
+        </Link>
+
         <div
-          className="sm:hidden text-4xl mr-2   z-50"
+          className="sm:hidden text-4xl mr-2 z-50"
           onClick={() => {
             setShowAside(!showAside);
             setIsHidden(!isHidden);

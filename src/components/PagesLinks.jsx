@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const PagesLinks = () => {
   return (
-    <ul className="flex flex-col sm:flex-row gap-x-8 gap-y-6 text-white ">
+    <ul className="flex flex-row gap-x-8 gap-y-6 text-white  ">
       <li>
         <NavLink
           to="/about"

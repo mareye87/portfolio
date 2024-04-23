@@ -10,6 +10,9 @@ const TopTipModule = () => {
     setTimeout(() => {
       setShowModule(true);
     }, 1000);
+    window.addEventListener("scroll", () => {
+      setShowModule(false);
+    });
   }, []);
 
   return (
@@ -17,8 +20,8 @@ const TopTipModule = () => {
       onClick={() => {
         setShowModule(false);
       }}
-      className={`h-screen w-full absolute top-0 left-0 grid place-items-center z-20 ${
-        showModule ? "opacity-100" : "opacity-0 h-0"
+      className={`h-screen w-full absolute top-0 left-0 grid place-items-center z-10  ${
+        showModule ? "opacity-100" : "opacity-0 -translate-y-full"
       } transition-all duration-1000`}
     >
       <div className="w-2/3 max-w-56  bg-[rgba(255,255,255,0.2)] backdrop-blur-md rounded-md shadow-md text-slate-100 relative">
